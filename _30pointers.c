@@ -1,7 +1,13 @@
 #include <stdio.h>
 
 int main(){
-    int myAge = 28;
-    printf("%d\n", myAge);
-    printf("%p\n", &myAge);
+    int x = 10;
+    int  *y = &x;
+    printf("%d\n", x);
+    printf("%u\n", &x);
+    printf("%u\n", y);
+    printf("%d\n", *y);
+    printf("%u\n", &y);
+
+    return 0;
 }
